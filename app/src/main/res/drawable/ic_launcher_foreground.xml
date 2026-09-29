@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Gemini Sparkle Outer Glow / Gradient -->
+    <path
+        android:pathData="M 54,22 C 54,39 69,54 86,54 C 69,54 54,69 54,86 C 54,69 39,54 22,54 C 39,54 54,39 54,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4285F4" />
+                <item android:offset="0.35" android:color="#9C27B0" />
+                <item android:offset="0.7" android:color="#E91E63" />
+                <item android:offset="1.0" android:color="#FF9800" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary mini sparkle top right -->
+    <path
+        android:pathData="M 76,26 C 76,32 81,37 87,37 C 81,37 76,42 76,48 C 76,42 71,37 65,37 C 71,37 76,32 76,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="65"
+                android:startY="26"
+                android:endX="87"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#7C4DFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

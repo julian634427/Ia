@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Studio",
+  "description": "Tu asistente de tareas en tiempo real con interfaz moderna estilo AI Studio, barra lateral redondeada, borde degradado arcoíris y comunicación fluida impulsada por Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
